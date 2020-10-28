@@ -1,0 +1,22 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "calc"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-1y2caz2hgtpby"
+s3_prefix = "calc"
+region = "us-east-2"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
+profile = "personal"
+
+[personal]
+[personal.deploy]
+[personal.deploy.parameters]
+stack_name = "calc"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-1y2caz2hgtpby"
+s3_prefix = "calc"
+region = "us-east-2"
+profile = "personal"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"

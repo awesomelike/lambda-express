@@ -1,0 +1,22 @@
+{
+    "name": "replaced-by-user-input",
+    "description": "replaced-by-user-input",
+    "version": "0.0.1",
+    "private": true,
+    "dependencies": {
+        "aws-serverless-express": "^3.3.8",
+        "dotenv": "^8.2.0",
+        "express": "^4.17.1",
+        "express-validation": "^1.0.2",
+        "joi": "13.4.0"
+    },
+    "devDependencies": {
+        "eslint": "^7.12.1",
+        "eslint-config-airbnb-base": "^14.2.0",
+        "eslint-plugin-import": "^2.22.1",
+        "jest": "^24.7.1"
+    },
+    "scripts": {
+        "test": "jest"
+    }
+}
